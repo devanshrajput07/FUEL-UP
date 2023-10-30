@@ -1,0 +1,84 @@
+body {
+    height: 100%;
+    width: 99%;
+    background: url(img/07.png) no-repeat;
+    background-size: cover;
+}
+
+.PP1,
+.PP2,
+.PP3,
+.PP4,
+.PP5,
+.PP6,
+.PP7,
+.PP8,
+.PP9,
+.PP10 {
+    position: absolute;
+    height: 30px;
+    width: 55px;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #474d9e;
+}
+
+p {
+    font-size: 0.7rem;
+    color: brown;
+    font-weight: 900;
+}
+
+.PP1 {
+    left: 1365px;
+    top: 230px;
+}
+
+.PP2 {
+    left: 1145px;
+    top: 295px;
+}
+
+.PP3 {
+    left: 1030px;
+    top: 290px;
+}
+
+.PP4 {
+    left: 990px;
+    top: 320px;
+}
+
+.PP5 {
+    left: 460px;
+    top: 445px;
+}
+
+.PP6 {
+    left: 390px;
+    top: 440px;
+}
+
+.PP7 {
+    left: 230px;
+    top: 470px;
+}
+
+.PP8 {
+    left: 835px;
+    top: 75px;
+}
+
+.PP9 {
+    left: 665px;
+    top: 245px;
+}
+
+.PP10 {
+    left: 585px;
+    top: 310px;
+}
