@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="icon.jpg">
+    <title>Fuel Up - Pricing & Availability</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav {
+            display: flex;
+            background-color: #444;
+            color: #fff;
+            font-weight: bold;
+            margin: 10px;
+        }
+
+        .fuel {
+            margin-left: 25px;
+        }
+
+        .price,
+        .availability {
+            flex: 1;
+            text-align: center;
+            font-variant-numeric: oldstyle-nums;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        section {
+            background-color: #fff;
+            margin: 15px;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+            display: flex;
+            align-items: center;
+        }
+
+        .check2 {
+            -webkit-appearance: none;
+            height: 35px;
+            width: 35px;
+            font-size: 30px;
+            background-color: #FE0006;
+            text-align: center;
+            font-weight: 600;
+            border-radius: 3px;
+        }
+
+        .check2:checked {
+            background-color: #0E9700;
+        }
+
+        .check2:before {
+            content: "✖";
+        }
+
+        .check2:checked:before {
+            content: "✔";
+        }
+
+        .check1 {
+            -webkit-appearance: none;
+            height: 35px;
+            width: 35px;
+            font-size: 30px;
+            background-color: #0E9700;
+            text-align: center;
+            font-weight: 600;
+            border-radius: 3px;
+        }
+
+        .check1:checked {
+            background-color: #FE0006;
+        }
+
+        .check1:before {
+            content: "✔";
+        }
+
+        .check1:checked:before {
+            content: "✖";
+        }
+
+        #btn {
+            justify-content: center;
+            align-items: center;
+        }
+
+        .btn {
+            margin: 0 auto;
+            padding: 10px 20px;
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+            text-decoration: none;
+            color: #fff;
+            background-color: #ff5252;
+            border: 2px solid #000;
+            border-radius: 10px;
+            box-shadow: 5px 5px 0px #000;
+            cursor: pointer;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>HP Vinayak Kartikeya</h1>
+    </header>
+
+    <nav>
+        <div class="fuel">
+            <li>Fuel</li>
+        </div>
+        <div class="price">
+            <li>Price</li>
+        </div>
+        <div class="availability">
+            <li>Availability</li>
+        </div>
+    </nav>
+
+    <section id="petrol">
+        <div>
+            <h2>Petrol--</h2>
+        </div>
+        <div class="price">96.56</div>
+        <div class="availability"><input type="checkbox" name="switch" class="check1"></div>
+    </section>
+
+    <section id="diesel">
+        <div>
+            <h2>Diesel--</h2>
+        </div>
+        <div class="price">89.73</div>
+        <div class="availability"><input type="checkbox" name="switch" class="check1"></div>
+    </section>
+
+    <section id="cng">
+        <div>
+            <h2>--CNG--</h2>
+        </div>
+        <div class="price">NA</div>
+        <div class="availability"><input type="checkbox" name="switch" class="check2"></div>
+    </section>
+
+    <section id="electric">
+        <div>
+            <h2>Electric-</h2>
+        </div>
+        <div class="price">NA</div>
+        <div class="availability"><input type="checkbox" name="switch" class="check2"></div>
+    </section>
+
+    <section id="btn">
+        <a href="https://goo.gl/maps/wLscWa5dwZ1kMHqy9"><button class="btn">Let's Go</button></a>
+    </section>
+
+    <footer>
+        <p>&copy; Fuel Up</p>
+    </footer>
+</body>
+
+</html>
